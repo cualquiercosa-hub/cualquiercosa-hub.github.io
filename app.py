@@ -44,4 +44,3 @@ def index():
 
     # Renderiza la plantilla HTML, enviando los resultados
     return render_template('index.html', resultados=resultados, costo=costo_ingresado)
- st.caption 
