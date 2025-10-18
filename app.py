@@ -46,4 +46,3 @@ def index():
 
 if __name__ == '__main__':
     # Ejecuta el servidor en modo debug para ver los cambios al instante
-    app.run(debug=True)
