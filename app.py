@@ -1,3 +1,4 @@
+from turtle import st
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
@@ -43,3 +44,4 @@ def index():
 
     # Renderiza la plantilla HTML, enviando los resultados
     return render_template('index.html', resultados=resultados, costo=costo_ingresado)
+ st.caption 
