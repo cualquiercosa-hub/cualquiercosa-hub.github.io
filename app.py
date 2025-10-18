@@ -43,6 +43,3 @@ def index():
 
     # Renderiza la plantilla HTML, enviando los resultados
     return render_template('index.html', resultados=resultados, costo=costo_ingresado)
-
-if __name__ == '__main__':
-    # Ejecuta el servidor en modo debug para ver los cambios al instante
